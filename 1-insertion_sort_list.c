@@ -17,7 +17,7 @@ void insertion_sort_list(listint_t **list)
 		return;
 	}
 
-	ih = (*list)->next;
+	i = (*list)->next;
 	while (i)
 	{
 		j = i;
